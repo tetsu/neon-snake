@@ -1,10 +1,15 @@
 # Neon Snake
 
-*🚀 Created with the help of Google Antigravity, an advanced AI coding assistant.*
+_🚀 Created with the help of Google Antigravity, an advanced AI coding assistant._
 
 A modern, functional, dark-themed Snake game built with HTML5 Canvas, Vanilla CSS, and Vanilla JavaScript.
 
+![Live Demo](https://img.shields.io/badge/Play-Live_Demo-brightgreen?style=for-the-badge&logo=github)
+
+**Play the game here:** [https://tetsu.github.io/neon-snake](https://tetsu.github.io/neon-snake)
+
 ## Features
+
 - **Neon Dark Aesthetics:** Sleek `#0f0f13` background with glowing `#39ff14` (green) snake and `#ff073a` (red) food.
 - **Wrap-around Movement:** The snake wraps around the edges of the canvas instead of dying upon hitting the walls.
 - **Scoring System:** Keeps track of your current score and displays your final score upon Game Over.
@@ -15,21 +20,26 @@ A modern, functional, dark-themed Snake game built with HTML5 Canvas, Vanilla CS
 To run the game, you need to serve the files using a local web server (opening the HTML file directly might work, but running a server is recommended for loading external assets or avoiding cross-origin issues).
 
 1. Open your terminal and navigate to the game's directory:
+
    ```bash
    cd path/to/neon-snake
    ```
 
 2. Start a Python HTTP server depending on your installed version:
    **For Python 3:**
+
    ```bash
    python3 -m http.server 8000
    ```
+
    **For Python 2:**
+
    ```bash
    python -m SimpleHTTPServer 8000
    ```
 
 3. Open your web browser and go to:
+
    ```
    http://localhost:8000
    ```
