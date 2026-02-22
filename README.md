@@ -1,5 +1,7 @@
 # Neon Snake
 
+*🚀 Created with the help of Google Antigravity, an advanced AI coding assistant.*
+
 A modern, functional, dark-themed Snake game built with HTML5 Canvas, Vanilla CSS, and Vanilla JavaScript.
 
 ## Features
